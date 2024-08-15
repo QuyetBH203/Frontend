@@ -31,7 +31,7 @@ export default function UserBalance() {
       console.log("allowance",allowance);
       
 
-      const {data:deposit, refetch: depositRefetch} = useReadContract({
+      const {data:deposit} = useReadContract({
         abi: myContractAbi,
         address: myContractAddress as EthAddress,
         functionName: 'depositOf',
