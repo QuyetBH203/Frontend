@@ -1,15 +1,13 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { useState } from 'react'
 import { WagmiProvider } from 'wagmi'
 import './App.css'
-import reactLogo from './assets/react.svg'
 import ConnectWallet from './components/ConnectWallet'
 import { wagmiConfig } from './configs/wagmi'
 
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   const queryClient = new QueryClient()
 

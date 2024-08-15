@@ -2,7 +2,6 @@ import { parseEther } from 'ethers';
 import { useAccount, useBalance, useReadContract, useWriteContract } from 'wagmi';
 import { abi as myContractAbi } from "../contracts/MyContract.json";
 import { abi as tokenERC20Abi } from "../contracts/TokenERC20.json";
-import { useTokenBalance } from './GetBalance';
 import { Token as myContractAddress } from "../contracts/MyContract-address.json";
 import { Token as tokenAddress } from "../contracts/TokenERC20-address.json";
 
